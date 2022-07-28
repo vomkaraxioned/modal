@@ -120,11 +120,34 @@ li {
   main styling starts here
 =================================*/
 
-.image-holder {  display: flex;}
+.image-holder { 
+  margin: 20px 5%; 
+  display: flex;
+}
 
+li { 
+  width: 5%;
+  height: 500px;
+  margin-right: 5%;
+}
 
+figure { 
+  width: 100%;
+  height: 100%;
+}
 
+figure img { 
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  object-fit: cover;
+}
 
+li {  width: 10%;}
+
+.active {  width: 40%;}
+
+.active img { border-radius: 20px;}
 
 
 /*=================================
