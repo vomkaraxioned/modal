@@ -1,11 +1,12 @@
 /* Author: 
 
 */
-let img = document.getElementsByTagName ("li");
-
-console.log(img.length);
-
-
+let img = document.getElementById("mybtn");
+let li = document.getElementsByClassName("fig");
+img.addEventListener("click", displayDate);
+function displayDate () {
+  document.getElementById("demo").innerHTML = li.length;
+}
 
 
 
