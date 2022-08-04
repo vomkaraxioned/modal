@@ -257,16 +257,7 @@ li {
 
 .active {
     width: 40%;
-    animation: expand 2s linear;
-}
-
-@keyframes expand {
-    0% {
-        width: 10%;
-    }
-    100% {
-        width: 40%;
-    }
+    transition: width 2s linear;
 }
 
 .active img {
